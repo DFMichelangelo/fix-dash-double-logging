@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 pandas = "*"
+json5 = "*"
 
 [dev-packages]
 

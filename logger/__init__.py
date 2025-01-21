@@ -1,9 +1,11 @@
 import logging
+import logging.config
 
 from logger.ColorFormatter import ColorFormatter
 
 
 def setup_logger():
+    # Set root logger level
     root_logger = logging.getLogger()
     root_logger.setLevel(logging.DEBUG)
 
