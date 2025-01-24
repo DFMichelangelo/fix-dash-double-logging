@@ -6,8 +6,12 @@ name = "pypi"
 [packages]
 pandas = "*"
 json5 = "*"
+dash = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.13"
+
+[scripts]
+dev="python main.py"

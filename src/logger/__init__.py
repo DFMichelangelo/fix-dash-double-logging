@@ -1,7 +1,7 @@
 import logging
 import logging.config
 
-from logger.ColorFormatter import ColorFormatter
+from src.logger.ColorFormatter import ColorFormatter
 
 
 def setup_logger():
